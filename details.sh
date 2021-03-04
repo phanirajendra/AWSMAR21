@@ -9,3 +9,6 @@ echo $(whoami)
 #THIS IS A LIST OF USERS
 USERS=$(cat /etc/passwd | cut -d ":" -f 1)
 echo $USERS
+
+#THIS IS IPADDRESS
+echo $(ifconfig)
